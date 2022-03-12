@@ -1,0 +1,24 @@
+body{
+    /* background: linear-gradient(90deg, #a221ff 0%, #8700ff 100%); */
+    background-color: #a221ff;
+    object-fit: cover;
+    overflow-x: scroll;
+    overflow-y: hidden;
+
+
+    overflow-y: hidden; 
+    overflow-x: hidden; 
+}
+
+
+.img {
+    width: 2896px;
+    margin-left: -425px;
+    transform: skewY(42deg);
+    height: 1867px;
+}
+
+
+
+
+
