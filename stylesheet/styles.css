@@ -1,22 +1,117 @@
-body{
-    /* background: linear-gradient(90deg, #a221ff 0%, #8700ff 100%); */
-    background-color: #a221ff;
-    object-fit: cover;
-    overflow-x: scroll;
-    overflow-y: hidden;
+@font-face {
+  font-family: ralewayBold;
+  src: url(fonts/Raleway-Bold.ttf);
 
+  font-family: ralewayRegular;
+  src: url(fonts/RalewayRegular.ttf);
 
-    overflow-y: hidden; 
-    overflow-x: hidden; 
+  font-family: ralewaysemiBold;
+  src: url(fonts/RalewaySemiBold.ttf);
 }
 
 
-.img {
-    width: 2896px;
-    margin-left: -425px;
-    transform: skewY(42deg);
-    height: 1867px;
+
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+
+
+body {
+
+  /* background: rgb(14,43,80);
+  background: linear-gradient(90deg, rgba(14,43,80,1) 0%, rgba(21,21,71,1) 100%);  */
+
+  /* background: rgb(21,74,163);
+  background: linear-gradient(90deg, rgba(21,74,163,1) 0%, rgba(34,35,117,1) 47%, rgba(1,0,134,1) 100%); */
+  
+  overflow-x: scroll;
+  overflow-y: hidden;
+
+
+  overflow-y: hidden; 
+  overflow-x: hidden; 
+
+
+
+
+
+}
+
+
+
+
+
+.DS{
+  font-family: ralewayRegular;
+
+  color:white;
+}
+
+.homeColor{
+  color: #CAF1DE;
+  opacity: 100%;
+
+}
+
+
+.navTopColor{
+  font-family: ralewayRegular;
+  font-size: 20px;
+}
+.bg {
+  background-color: black;
+}
+
+.navcolor {
+  color: #c6c6c6;
+
+  /* background: rgb(34,38,45);
+  background: linear-gradient(90deg, rgba(34,38,45,1) 0%, rgba(37,37,38,1) 100%); */
+  font-size: 20px;
+  opacity: 100%;
+}
+
+.navlink{
+
+  background: rgb(34,38,45);
+  background: linear-gradient(90deg, rgba(34,38,45,1) 0%, rgba(37,37,38,1) 100%);
+  opacity: 60%;
+
+  font-family: ralewayBold;
+  font-size: 24px;
+}
+
+.page-header {
+  color: white;
+  text-align: center;
+  font-family: ralewaysemiBold;
+}
+
+
+
+
+
+#particles-js{
+  width: 100%;
+  height: 100vh;
+  background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url(../images/background.jpg);
+
+}
+
+.homeColor:hover{
+  color: white;
+}
+
+.navcolor:hover{
+  color: white;
+}
+
+
 
 
 
