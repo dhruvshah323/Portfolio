@@ -170,6 +170,7 @@ body {
 
 
 
+<<<<<<< HEAD
 /* responsive webstite */
 @media screen and (max-width: 700px) {
   .died-center {
@@ -195,3 +196,13 @@ body {
     text-shadow: 0 0 3px black;
   }
 }
+=======
+/* .span{
+  animation: blinker 1s linear infinite;
+}
+@keyframes bliner{
+  50%{
+    opacity: 0;
+  }
+} */
+>>>>>>> ae0c4760deb246cd4e3cfdd6f17c7f8b6a25da76

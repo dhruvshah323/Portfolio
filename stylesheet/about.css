@@ -24,6 +24,7 @@
 
   body {
 
+<<<<<<< HEAD
 
 
     background-color: #16161d;
@@ -36,6 +37,20 @@
   
     overflow-y: hidden;
     overflow-x: hidden; */
+=======
+    /* background: linear-gradient(91deg, #8b13e6 0%, #3d40b8 , #5b19c5 ); */
+    background: linear-gradient(-45deg, #ee7752, #5D3FD3, #a4dded, #3d40b8);
+
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+
+    overflow-x: scroll;
+    overflow-y: hidden;
+  
+    overflow-y: hidden;
+    overflow-x: hidden;
+>>>>>>> ae0c4760deb246cd4e3cfdd6f17c7f8b6a25da76
 /*   
     background: rgb(14, 43, 80);
     background: linear-gradient(
@@ -46,6 +61,20 @@
   
   }
 
+<<<<<<< HEAD
+=======
+  @keyframes gradient {
+    0% {
+      background-position: 0% 40%;
+    }
+    50% {
+      background-position: 100% 40%;
+    }
+    100% {
+      background-position: 0% 40%;
+    }
+  }
+>>>>>>> ae0c4760deb246cd4e3cfdd6f17c7f8b6a25da76
   
   
   
