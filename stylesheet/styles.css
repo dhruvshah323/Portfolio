@@ -170,7 +170,7 @@ body {
 
 
 
-<<<<<<< HEAD
+
 /* responsive webstite */
 @media screen and (max-width: 700px) {
   .died-center {
@@ -180,7 +180,7 @@ body {
     top: 50%;
     margin-top: -153px;
     left: 40%;
-    margin-left: -114px;
+    margin-left: -155px;
     font-weight: bold;
     text-transform: uppercase;
     color: #ccc;
@@ -192,17 +192,9 @@ body {
     color: white;
     text-align: center;
     font-family: ralewayBold;
-    font-size: 1.1em;
+    font-size: 1.7em;
     text-shadow: 0 0 3px black;
   }
 }
-=======
-/* .span{
-  animation: blinker 1s linear infinite;
-}
-@keyframes bliner{
-  50%{
-    opacity: 0;
-  }
-} */
->>>>>>> ae0c4760deb246cd4e3cfdd6f17c7f8b6a25da76
+
+
