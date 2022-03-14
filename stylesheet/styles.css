@@ -189,7 +189,7 @@ body {
   }
   .page-header {
     color: white;
-    /* text-align: center; */
+    text-align: center;
     font-family: ralewayBold;
     font-size: 1.1em;
     text-shadow: 0 0 3px black;
