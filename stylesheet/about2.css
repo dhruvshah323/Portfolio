@@ -1,0 +1,42 @@
+@font-face {
+	font-family: ralewayBold;
+	src: url(fonts/Raleway-Bold.ttf);
+  
+	font-family: ralewayRegular;
+	src: url(fonts/RalewayRegular.ttf);
+  
+	font-family: ralewaysemiBold;
+	src: url(fonts/RalewaySemiBold.ttf);
+  }
+
+  *{
+	  padding: 0;
+	  margin: 0;
+  }
+
+
+.header-area h2{
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	/* font-family: RalewaySemiBold; */
+	 font-size: 1.3rem;  
+
+}
+
+.header-area h2 span{
+	color: #680ee8;
+
+}
+
+
+.skills-header{
+
+	margin: -47px;
+	font-size: 1.3em;
+	font-family: ralewayRegular;
+}
