@@ -81,8 +81,6 @@ body {
   color: #caf1de;
 }
 
-
-
 .skills {
   top: 40%;
   color: #680ee8;
@@ -96,9 +94,6 @@ body {
   margin: -70px -175px -16px 4px;
   /* line-height: 0px; */
 }
-
-
-
 
 .blinker {
   border-right: 0.05em solid;
@@ -182,7 +177,7 @@ body {
   color: WHITE;
   text-align: center;
   text-shadow: 0 0 3px black;
-  font-size: 1.9em;
+  font-size: 1.5rem;
   font-family: ralewayRegular;
 }
 
@@ -190,7 +185,8 @@ body {
   color: #680ee8;
   text-align: center;
   /* font-family: ralewayBold; */
-  font-size: 1.1em;
+  font-size: 1.3rem;
+
   text-transform: uppercase;
   font-weight: bold;
   text-shadow: 0 0 3px black;
@@ -241,3 +237,162 @@ body {
   width: 27em;
   height: 32em;
 }
+
+.header-area h2 {
+  position: absolute;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  /* font-family: RalewaySemiBold; */
+  font-size: 1.5rem;
+}
+
+.header-area h2 span {
+  color: #680ee8;
+}
+
+.animate {
+  font-size: 1.5rem;
+}
+
+.skills-header {
+  margin: -47px;
+  font-size: 1.5rem;
+
+  font-family: ralewayRegular;
+}
+
+.about-txt {
+  width: 600px;
+  height: 577px;
+  padding: 10px;
+  /* margin-top: 200px; */
+  top: 35%;
+  margin: -151px 0px 0px -483px;
+  text-align: center;
+
+}
+
+.main-skill{
+  margin: 719px 0px 0px -338px;
+  text-align: center;
+  font-family: ralewayRegular;
+  font-size: 2.9rem;
+  font-weight: bold;
+}
+
+.main-skill span{
+  color: #680ee8;
+
+}
+
+
+
+
+  
+
+
+
+hr.separator {
+  border-top: 1px solid #D3D3D3;
+  margin: 70px auto 55px;
+  max-width: 40%;
+  margin-left: 349px;
+  }
+
+  .programing{
+    max-width: 375px;
+    height: 164px;
+    padding: 10px;
+    /* margin-top: 200px; */
+    top: 35%;
+    margin: 131px 0px 0px 220px;
+    border-color: #680ee8;
+    background-color: #252525;
+    color: white;
+    font-family: ralewayBold;
+    font-size: 1.1rem;
+    font-weight: bold;
+
+
+  }
+
+  .programing-month{
+    color: #8a2be2; 
+    font-family: ralewayBold;
+    font-size: 1.4rem;
+    font-weight: bold;
+
+  }
+
+  .programing2{
+    max-width: 375px;
+    height: 164px;
+    padding: 10px;
+    /* margin-top: 200px; */
+    top: 35%;
+    margin: -164px 0px 0px 679px;
+    border-color: #680ee8;
+    background-color: #252525;
+    color: white;
+    font-family: ralewayBold;
+    font-size: 1.1rem;
+    font-weight: bold;
+
+
+
+
+  }
+
+  .programing-month2{
+    color: #8a2be2; 
+    font-family: ralewayBold;
+    font-size: 1.4rem;
+    font-weight: bold;
+
+  }
+
+  .skill-div{
+    text-align: center;
+    margin: 200px 0px 0px -780px;
+  }
+
+  .skill-icon{
+    width: 7rem;
+    height: auto;
+    color: white
+  }
+
+  .skill-name{
+    font-family: ralewayBold;
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 30px;
+  }
+
+  .css-div{
+    text-align: center;
+    margin: -180px 0px 0px 393px;
+  }
+
+  .js-div{
+    text-align: center;
+    margin:-183px 0px 0px 816px;
+  }
+
+  .py-div{
+    text-align: center;
+    margin:-178px 0px 0px 1246px;
+  }
+
+  .dj-div{
+
+    text-align: center;
+    margin: 70px 0px 0px 0px;
+
+  }
+
+
