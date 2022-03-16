@@ -357,7 +357,7 @@ hr.separator {
 
   .skill-div{
     text-align: center;
-    margin: 200px 0px 0px -780px;
+    margin: 200px 0px 0px -975px;
   }
 
   .skill-icon{
@@ -366,11 +366,20 @@ hr.separator {
     color: white
   }
 
+  .dj-icon{
+    width: 17rem;
+    height: auto;
+    color: white
+
+  }
+
   .skill-name{
     font-family: ralewayBold;
     font-size: 1.5rem;
     color: white;
     margin-top: 30px;
+    font-weight: bold;
+
   }
 
   .css-div{
@@ -389,10 +398,22 @@ hr.separator {
   }
 
   .dj-div{
+    width: 17rem;
+
 
     text-align: center;
-    margin: 70px 0px 0px 0px;
+    margin:-230px 0px 0px 1990px;
+
+
+  }
+  .dj-name{
+    font-family: ralewayBold;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+
 
   }
 
 
+  
