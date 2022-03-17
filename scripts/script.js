@@ -21,12 +21,24 @@ window.addEventListener('scroll',function(){
   lastScrollTop = scrollTop; //New Position Stored
 });
 
+const button = document.querySelector('.toggle-button')
 
-   
+button.addEventListener('click', function(){
+  this.classList.toggle('active');
+})
+
+
 const toggleButton = document.getElementsByClassName('toggle-button')[0]
 const navbarLinks = document.getElementsByClassName('navbar-links')[0]
 
-toggleButton.addEventListener('click', () => {
+toggleButton.addEventListener('click', function ()  {
   navbarLinks.classList.toggle('active')
+
 })
+
+
+
+
+   
+
 
