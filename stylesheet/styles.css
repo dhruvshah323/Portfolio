@@ -179,8 +179,13 @@ body {
     position: absolute;
     top: 50%;
     margin-top: -153px;
+
+    left: 40%;
+    margin-left: -155px;
+
     left: 60%;
     margin-left: -179px;
+
     font-weight: bold;
     text-transform: uppercase;
     color: #ccc;
@@ -192,7 +197,11 @@ body {
     color: white;
     text-align: center;
     font-family: ralewayBold;
+
+    font-size: 1.7em;
+
     font-size: 1.1em;
+
     /* text-shadow: 0 0 3px black; */
   }
 }
