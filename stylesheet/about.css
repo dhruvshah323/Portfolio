@@ -682,37 +682,133 @@ nav .icon-burger .line {
     
     
     }
+}
 
-    .about-header{
-      margin-left: 89px;
+
+@media  (max-width: 768px){
+  .about-header{
+    margin-left: 90px;
+  }
+
+  .died-center{
+    left: 50%;
+    margin-left: -260px;
     }
 
-    .died-center{
-      left: 50%;
-      margin-left: -260px;
-      }
+  .about-txt{
+    width: 500px
+  }
 
-    .about-txt{
-      width: 500px
-    }
+  .mypicture{
+    margin-top: 831px;
+    margin-left: 87px;
+    margin-right: 0px;
+  }
+  .img-container img {
+    width: 20em;
+    height: 25em;
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    transition: all 2s ease;
+  }
+  .img-container img:hover {
+    width: 22em;
+    height: 37em;
+  }
+  .header-area{
+    margin: -80px 0px 0px 0px;
+  }
+  .main-skill{
+    margin: 1553px 0px 0px -247px;
+  }
 
-    .mypicture{
-      margin-top: 863px;
-      margin-left: 87px;
-      margin-right: 0px;
-    }
-    .img-container img {
-      width: 20em;
-      height: 25em;
-      -webkit-transition: all 2s ease;
-      -moz-transition: all 2s ease;
-      -ms-transition: all 2s ease;
-      transition: all 2s ease;
-    }
-    .img-container img:hover {
-      width: 22em;
-      height: 37em;
-    }
+  hr.separator{
+    margin: 192px auto 55px;
+    max-width: 90%;
+    margin-left: 23px;
+  }
+
+  .programing{
+    max-width: 375px;
+    height: 173px;
+    padding: 3px;
+    top: 15%;
+    margin: -46px 0px 0px 122px;
+  }
+
+  .programing2{
+    max-width: 375px;
+    height: 164px;
+    padding: 10px;
+    /* margin-top: 200px; */
+    top: 15%;
+    margin: 48px 0px 0px 122px;
+
+  }
+
+  .skill-div{
+    
+    text-align: center;
+    margin: 138px 0px 0px -31px;
+  }
+  .skill-icon{
+    width: 9rem;
+    height: auto;
+    color: white
+  }
+
+
+  .skill-name{
+    font-family: ralewayBold;
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 30px;
+    font-weight: bold;
+
+  }
+
+  .css-div{
+    width: 9rem;
+    text-align: center;
+    margin: 50px 0px 0px 200px;
+  }
+
+  .js-div{
+    width: 9rem;
+    text-align: center;
+    margin:62px 0px 0px 206px;
+  }
+
+  .py-div{
+    width: 9rem;
+
+    text-align: center;
+    margin: 61px 0px 0px 208px;
+  }
+
+  .dj-div{
+    width: 17rem;
+
+
+    text-align: center;
+
+    margin: 10px 0px 0px 145px;
+
+
+  }
+  .dj-name{
+    font-family: ralewayBold;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+
+
+
+  }
+
+
+  
 }
 
 
