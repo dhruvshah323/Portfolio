@@ -28,17 +28,17 @@ body {
   overflow-y: hidden;
   overflow-x: hidden;
 
-<<<<<<< HEAD
+
   background-color: black;
  
-=======
+
   background: rgb(14, 43, 80);
   background: linear-gradient(
     90deg,
     rgba(14, 43, 80, 1) 0%,
     rgba(21, 21, 71, 1) 100%
   );
->>>>>>> ae0c4760deb246cd4e3cfdd6f17c7f8b6a25da76
+
 
 
 
@@ -91,6 +91,13 @@ body {
 
 .navcolor:hover {
   color: white;
+}
+
+.cs{
+  color: white;
+  text-align: center;
+  top: 80%;
+  margin-top: 185px;
 }
 
 
